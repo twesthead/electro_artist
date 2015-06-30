@@ -1,0 +1,122 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (virtualspace.cpp:114), pid=7652, tid=5672
+#  fatal error: os::release_memory failed
+#
+# JRE version:  (7.0_45-b18) (build )
+# Java VM: Java HotSpot(TM) Client VM (24.45-b08 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0044c800):  JavaThread "Unknown thread" [_thread_in_vm, id=5672, stack(0x00ee0000,0x00f30000)]
+
+Stack: [0x00ee0000,0x00f30000],  sp=0x00f2f5f0,  free space=317k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x18df51]
+V  [jvm.dll+0x187cc6]
+V  [jvm.dll+0x1640bc]
+V  [jvm.dll+0x16459b]
+V  [jvm.dll+0x89a16]
+V  [jvm.dll+0x874e6]
+V  [jvm.dll+0x861f2]
+V  [jvm.dll+0x905c3]
+V  [jvm.dll+0x13dab4]
+V  [jvm.dll+0x1605fc]
+V  [jvm.dll+0xc8ebf]
+C  [java.exe+0x13c1]
+C  [java.exe+0x1e33]
+C  [java.exe+0xa591]
+C  [java.exe+0xa61b]
+C  [kernel32.dll+0x1337a]
+C  [ntdll.dll+0x392e2]
+C  [ntdll.dll+0x392b5]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0044c800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5672, stack(0x00ee0000,0x00f30000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x01180000 - 0x011af000 	C:\Program Files (x86)\Java\jre7\bin\java.exe
+0x771c0000 - 0x77340000 	C:\Windows\SysWOW64\ntdll.dll
+0x76970000 - 0x76a80000 	C:\Windows\syswow64\kernel32.dll
+0x756d0000 - 0x75717000 	C:\Windows\syswow64\KERNELBASE.dll
+0x75620000 - 0x756c1000 	C:\Windows\syswow64\ADVAPI32.dll
+0x759b0000 - 0x75a5c000 	C:\Windows\syswow64\msvcrt.dll
+0x76da0000 - 0x76db9000 	C:\Windows\SysWOW64\sechost.dll
+0x74df0000 - 0x74ee0000 	C:\Windows\syswow64\RPCRT4.dll
+0x74b40000 - 0x74ba0000 	C:\Windows\syswow64\SspiCli.dll
+0x74b30000 - 0x74b3c000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x74c60000 - 0x74d60000 	C:\Windows\syswow64\USER32.dll
+0x76d10000 - 0x76da0000 	C:\Windows\syswow64\GDI32.dll
+0x74d60000 - 0x74d6a000 	C:\Windows\syswow64\LPK.dll
+0x768c0000 - 0x7695d000 	C:\Windows\syswow64\USP10.dll
+0x720c0000 - 0x7225e000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18807_none_41e554362bd82458\COMCTL32.dll
+0x74d70000 - 0x74dc7000 	C:\Windows\syswow64\SHLWAPI.dll
+0x75770000 - 0x757d0000 	C:\Windows\system32\IMM32.DLL
+0x75400000 - 0x754cc000 	C:\Windows\syswow64\MSCTF.dll
+0x623b0000 - 0x6246f000 	C:\Program Files (x86)\Java\jre7\bin\msvcr100.dll
+0x62470000 - 0x627f0000 	C:\Program Files (x86)\Java\jre7\bin\client\jvm.dll
+0x74960000 - 0x74967000 	C:\Windows\system32\WSOCK32.dll
+0x75720000 - 0x75755000 	C:\Windows\syswow64\WS2_32.dll
+0x77190000 - 0x77196000 	C:\Windows\syswow64\NSI.dll
+0x72fe0000 - 0x73012000 	C:\Windows\system32\WINMM.dll
+0x76d00000 - 0x76d05000 	C:\Windows\syswow64\PSAPI.DLL
+0x6b3c0000 - 0x6b3cc000 	C:\Program Files (x86)\Java\jre7\bin\verify.dll
+0x6b3a0000 - 0x6b3c0000 	C:\Program Files (x86)\Java\jre7\bin\java.dll
+0x6a4e0000 - 0x6a4f3000 	C:\Program Files (x86)\Java\jre7\bin\zip.dll
+0x722c0000 - 0x723ab000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+java_command: <unknown>
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=.;C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip
+PATH=C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Cadence\SPB_16.3\tools\bin;C:\Cadence\SPB_16.3\tools\libutil\bin;C:\Cadence\SPB_16.3\tools\fet\bin;C:\Cadence\SPB_16.3\tools\pcb\bin;C:\Cadence\SPB_16.3\tools\specctra\bin;C:\Cadence\SPB_16.3\tools\PSpice;C:\Cadence\SPB_16.3\tools\PSpice\Library;C:\Cadence\SPB_16.3\tools\Capture;C:\Cadence\SPB_16.3\OpenAccess\bin\win32\opt;C:\Program Files (x86)\Nordic Semiconductor\nrf51\bin\;C:\Program Files (x86)\Microchip\xc16\v1.24\bin
+USERNAME=Thomas
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 23 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, tsc
+
+Memory: 4k page, physical 4189112k(890268k free), swap 16754612k(6652k free)
+
+vm_info: Java HotSpot(TM) Client VM (24.45-b08) for windows-x86 JRE (1.7.0_45-b18), built on Oct  8 2013 06:02:43 by "java_re" with unknown MS VC++:1600
+
+time: Wed May 27 11:09:16 2015
+elapsed time: 0 seconds
+

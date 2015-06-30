@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">electro_artist</string>
+    <string name="title_activity_main">ElectroArtist</string>
+    <string name="title_activity_led_matrix">LedMatrixActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="led_matrix">Matrice de LED</string>
+    <string name="color_led">LED de couleur</string>
+    <string name="to_ble">Gestion du Bluetooth Low Energy</string>
+    <string name="title_activity_ble">BleActivity</string>
+    <string name="ble_not_supported">Désolé, cet appareil ne dispose pas du Bluetooth Low Energy.</string>
+    <string name="bluetooth_status">Etat du Bluetooth : </string>
+    <string name="enable_bluetooth">Activer</string>
+    <string name="title_activity_color_led">ColorLedActivity</string>
+    <string name="ble_ad">"Activer la visibilité"</string>
+    <string name="ble_not_ad">Désactiver la visibilité</string>
+    <string name="ble_not_enabled">"Désolé, le Bluetooth n'est pas activé."</string>
+    <string name="title_activity_test_bench">TestBenchActivity</string>
+    <string name="test_bench">Banc de test</string>
+    <string name="ble_advertising_not_supported">Désolé, votre dispositif BLE ne peut pas se rendre visible.</string>
+    <string name="erase">Effacer</string>
+    <string name="test_bench_advertise">Activer la visibilité</string>
+    <string name="test_bench_stop_advertising">Désactiver la visibilité</string>
+    <string name="ble_scan">Rechercher un serveur</string>
+    <string name="ble_scanning">Recherche en cours...</string>
+    <string name="disconnect_from_server">Se déconnecter du serveur</string>
+
+
+</resources>

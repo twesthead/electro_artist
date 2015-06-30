@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="nb_rows_in_matrix">5</integer>
+    <integer name="nb_columns_in_matrix">10</integer>
+</resources>
